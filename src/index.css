@@ -11,3 +11,97 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.sectionStrip{
+  background-color: rgb(244, 246, 248);
+ font-size: 16px;
+ font-weight: bold;
+ 
+}
+
+.dashBoard{
+  /* border: 2px solid green; */
+  border-radius: 10px;
+  box-shadow: 10px 7px 7px rgb(228, 225, 225);
+}
+
+.frame p{
+  color: #800080;
+}
+.frame span{
+  font-size: 32px;
+  font-weight: bold;
+}
+.dashBoard button{
+  background-color: #800080;
+  color: white;
+  border: 0px ;
+  border-radius: 5rem;
+  padding: 0.5rem;
+}
+
+
+
+.cardi i { 
+  background-color: rgb(229, 234, 234);
+  padding: 8px;
+  background: -webkit-linear-gradient(#EEAEAE, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   border-radius: 50%;
+  font-size: 32px;
+}
+
+
+.codeBox{border:3px solid; 
+  font-size: x-large;
+  border-image: linear-gradient(to right, #eeaeae, #800080) 1; 
+  letter-spacing: 10px;
+  color: #800080;
+}
+
+
+.cardi{
+  box-sizing: border-box;
+ 
+  padding:0.7rem; 
+  /* margin: 0.5rem; */
+}
+
+a,a:hover,a:visited{
+  text-decoration: none;
+  color: #800080;
+}
+
+
+h2{
+  font-size: 32px;
+  font-weight: bold;
+  color:#800080;
+}
+
+.profileInfo,.profileInfo:hover,.profileInfo:visited{
+  color: #800080;
+}
+
+@media (max-width: 575.98px) {
+  .profileInfo,.profileInfo:hover,.profileInfo:visited{
+    background-color: #800080;
+    color: white;
+    /* margin: 3px; */
+   padding: 3px;   
+    border-radius: 0.5rem;
+  }
+  
+ }
+
+ .imC{display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(241, 240, 240);
+  margin: 4px;  
+  border-radius: 50%;
+  width: 45px;  
+  height: 45px;
+  padding: 10px;
+ }
